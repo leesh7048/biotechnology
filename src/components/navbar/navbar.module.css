@@ -14,10 +14,15 @@
   align-items: center;
   list-style: none;
 }
+.list a {
+  text-decoration: none;
+  color: black;
+}
 .item {
   margin-right: 8em;
   cursor: pointer;
 }
+
 .title {
   margin-right: 1em;
 }
