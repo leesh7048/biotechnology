@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  opacity: 0.9;
+  top: 5em;
+}
+.header {
+  display: flex;
+
+  align-items: center;
+  background-image: url("./img/img3.jpg");
+  background-size: cover;
+  height: 35em;
+}
+.header_innerBox {
+  margin-left: 15em;
+  color: black;
+}
+.title {
+  padding-bottom: 0.15em;
+  border-bottom: 5px solid black;
+  font-size: 4rem;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 3em 0;
+}
+.profileBox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3em;
+}
+.people1 {
+  border-radius: 50%;
+  width: 10em;
+  margin-bottom: 1em;
+  background-size: cover;
+}
+.profile li {
+  font-size: 1rem;
+}
+.name {
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid rebeccapurple;
+}

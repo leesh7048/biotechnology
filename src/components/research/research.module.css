@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  opacity: 0.9;
+  top: 5em;
+}
+.header {
+  display: flex;
+
+  align-items: center;
+  background-image: url("./img/img2.jpg");
+  background-size: cover;
+  height: 35em;
+}
+.header_innerBox {
+  margin-left: 15em;
+  color: white;
+}
+.title {
+  border-bottom: 3px solid white;
+  font-size: 4rem;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 3em 0;
+}
+.profileBox1 {
+  display: flex;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.comment {
+  flex: 1;
+}
