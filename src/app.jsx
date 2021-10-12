@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <DefaultLayout>
         <Switch>
-          <Route exact path="/">
+          <Route exact path={["/", "/biotechnology"]}>
             <Home />
           </Route>
           <Route path="/research">
