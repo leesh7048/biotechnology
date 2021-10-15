@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/biotechnology/static/css/main.f171d745.chunk.css",
-    "main.js": "/biotechnology/static/js/main.551619d9.chunk.js",
-    "main.js.map": "/biotechnology/static/js/main.551619d9.chunk.js.map",
+    "main.css": "/biotechnology/static/css/main.84c56926.chunk.css",
+    "main.js": "/biotechnology/static/js/main.22e3bdc3.chunk.js",
+    "main.js.map": "/biotechnology/static/js/main.22e3bdc3.chunk.js.map",
     "runtime-main.js": "/biotechnology/static/js/runtime-main.90d07029.js",
     "runtime-main.js.map": "/biotechnology/static/js/runtime-main.90d07029.js.map",
-    "static/js/2.475cc921.chunk.js": "/biotechnology/static/js/2.475cc921.chunk.js",
-    "static/js/2.475cc921.chunk.js.map": "/biotechnology/static/js/2.475cc921.chunk.js.map",
+    "static/css/2.2acc3e8f.chunk.css": "/biotechnology/static/css/2.2acc3e8f.chunk.css",
+    "static/js/2.7afba73e.chunk.js": "/biotechnology/static/js/2.7afba73e.chunk.js",
+    "static/js/2.7afba73e.chunk.js.map": "/biotechnology/static/js/2.7afba73e.chunk.js.map",
     "index.html": "/biotechnology/index.html",
-    "static/css/main.f171d745.chunk.css.map": "/biotechnology/static/css/main.f171d745.chunk.css.map",
-    "static/js/2.475cc921.chunk.js.LICENSE.txt": "/biotechnology/static/js/2.475cc921.chunk.js.LICENSE.txt",
+    "static/css/2.2acc3e8f.chunk.css.map": "/biotechnology/static/css/2.2acc3e8f.chunk.css.map",
+    "static/css/main.84c56926.chunk.css.map": "/biotechnology/static/css/main.84c56926.chunk.css.map",
+    "static/js/2.7afba73e.chunk.js.LICENSE.txt": "/biotechnology/static/js/2.7afba73e.chunk.js.LICENSE.txt",
+    "static/media/publications.module.css": "/biotechnology/static/media/img.69b22037.jpg",
     "static/media/img.99213c97.jpg": "/biotechnology/static/media/img.99213c97.jpg",
     "static/media/research.module.css": "/biotechnology/static/media/img2.2b139111.jpg",
     "static/media/people.module.css": "/biotechnology/static/media/img3.06181ed7.jpg",
-    "static/media/man.ec0026f2.jpg": "/biotechnology/static/media/man.ec0026f2.jpg"
+    "static/media/slick-theme.css": "/biotechnology/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.90d07029.js",
-    "static/js/2.475cc921.chunk.js",
-    "static/css/main.f171d745.chunk.css",
-    "static/js/main.551619d9.chunk.js"
+    "static/css/2.2acc3e8f.chunk.css",
+    "static/js/2.7afba73e.chunk.js",
+    "static/css/main.84c56926.chunk.css",
+    "static/js/main.22e3bdc3.chunk.js"
   ]
 }
