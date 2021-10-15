@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/biotechnology/static/css/main.08e73851.chunk.css",
-    "main.js": "/biotechnology/static/js/main.7745d3c8.chunk.js",
-    "main.js.map": "/biotechnology/static/js/main.7745d3c8.chunk.js.map",
+    "main.js": "/biotechnology/static/js/main.decd256c.chunk.js",
+    "main.js.map": "/biotechnology/static/js/main.decd256c.chunk.js.map",
     "runtime-main.js": "/biotechnology/static/js/runtime-main.90d07029.js",
     "runtime-main.js.map": "/biotechnology/static/js/runtime-main.90d07029.js.map",
     "static/css/2.2acc3e8f.chunk.css": "/biotechnology/static/css/2.2acc3e8f.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.2acc3e8f.chunk.css",
     "static/js/2.7afba73e.chunk.js",
     "static/css/main.08e73851.chunk.css",
-    "static/js/main.7745d3c8.chunk.js"
+    "static/js/main.decd256c.chunk.js"
   ]
 }
