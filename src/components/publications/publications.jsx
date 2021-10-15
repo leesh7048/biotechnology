@@ -27,11 +27,16 @@ const Publications = (props) => {
         <Slider {...settings} className={styles.slider}>
           <div className={styles.slider_item}>
             <div className={styles.thesisBox}>
-              <img
-                className={styles.thesis}
-                src={process.env.PUBLIC_URL + "/images/thesis1.PNG"}
-                alt=""
-              />
+              <a
+                href={process.env.PUBLIC_URL + "/assets/file.pdf"}
+                target="_blank"
+              >
+                <img
+                  className={styles.thesis}
+                  src={process.env.PUBLIC_URL + "/images/thesis1.PNG"}
+                  alt="thesis"
+                />
+              </a>
             </div>
             <span>lee,kim,asd,fff</span>
           </div>

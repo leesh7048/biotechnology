@@ -44,4 +44,8 @@
 .thesisBox {
   display: flex;
   justify-content: center;
+  outline: none;
+}
+a {
+  outline: none;
 }
