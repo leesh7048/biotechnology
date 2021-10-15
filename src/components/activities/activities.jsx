@@ -1,4 +1,6 @@
 import React from "react";
 
-const Activities = (props) => {};
+const Activities = (props) => {
+  return <div>activities</div>;
+};
 export default Activities;

@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./people.module.css";
-import profile_img from "./img/man.jpg";
+
+import Profile from "./profile";
+import { PROFILES } from "./contant";
 
 const People = (props) => {
+  const [profile, setProfile] = useState(PROFILES);
+  console.log(profile.map((a) => a));
+
   return (
     <main className={styles.container}>
       <header className={styles.header}>
@@ -11,10 +16,14 @@ const People = (props) => {
         </div>
       </header>
       <article className={styles.article}>
-        <section className={styles.section}>
+        <section className={styles.section1}>
           <div className={styles.profileBox1}>
             <div className={styles.profile}>
-              <img src={profile_img} alt="man" className={styles.people1} />
+              <img
+                src={process.env.PUBLIC_URL + "/images/woman.jpg"}
+                alt="man"
+                className={styles.people1}
+              />
               <h1 className={styles.name}>이택규</h1>
               <ul>
                 <li>list1</li>
@@ -31,6 +40,11 @@ const People = (props) => {
               </span>
             </div>
           </div>
+        </section>
+        <section className={styles.section2}>
+          {profile.map((data) => (
+            <Profile data={data} key={data.id} />
+          ))}
         </section>
       </article>
     </main>
