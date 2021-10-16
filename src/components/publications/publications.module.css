@@ -46,6 +46,14 @@
   justify-content: center;
   outline: none;
 }
-a {
+.a {
   outline: none;
+  text-decoration: none;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

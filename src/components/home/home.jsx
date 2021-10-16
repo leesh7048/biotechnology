@@ -4,7 +4,7 @@ import styles from "./home.module.css";
 import { FaDna } from "react-icons/fa";
 import { AiOutlineExperiment } from "react-icons/ai";
 import { FaBacteria } from "react-icons/fa";
-import { FaHeadSideVirus } from "react-icons/fa";
+import { BiDonateBlood } from "react-icons/bi";
 
 const Home = (props) => {
   return (
@@ -13,29 +13,25 @@ const Home = (props) => {
       <div className={styles.contact}>
         <div className={styles.box1}>
           <div className={styles.box1_text}>
-            <h1>
-              The Functional Genomics lab is a part of the Department of
-              Biomedical Research at Seoul National University College of
-              Medicine
-            </h1>
+            <h1>Yonsei medical Genomics laboratory</h1>
           </div>
         </div>
         <div className={styles.box2}>
           <div className={styles.item}>
             <FaDna fontSize="5rem" />
-            <p>이택규</p>
+            <p>Genomics</p>
           </div>
           <div className={styles.item}>
             <AiOutlineExperiment fontSize="5rem" />
-            <p>aaaaaaaaaaaaaaaaaaaa</p>
+            <p>NGS</p>
           </div>
           <div className={styles.item}>
             <FaBacteria fontSize="5rem" />
-            <p>aaaaaaaaaaaaaaaaaaaa</p>
+            <p>Metagenome</p>
           </div>
           <div className={styles.item}>
-            <FaHeadSideVirus fontSize="5rem" />
-            <p>aaaaaaaaaaaaaaaaaaaa</p>
+            <BiDonateBlood fontSize="5rem" />
+            <p>Liquid biopsy</p>
           </div>
         </div>
       </div>

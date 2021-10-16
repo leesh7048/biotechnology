@@ -5,6 +5,8 @@
   position: fixed;
   z-index: 1;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 .list {
   display: flex;
@@ -24,5 +26,13 @@
 }
 
 .title {
-  margin-right: 1em;
+  line-height: 20px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoImg {
+  transform: rotate(-30deg);
 }
