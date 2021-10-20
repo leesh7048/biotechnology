@@ -1,14 +1,16 @@
 import React from "react";
 import styles from "./research.module.css";
+import * as Styled from "./research.styled";
 
 const Research = (props) => {
+  console.log(process.env.PUBLIC_URL.public);
   return (
     <main className={styles.container}>
-      <header className={styles.header}>
+      <Styled.Header className={styles.header}>
         <div className={styles.header_innerBox}>
           <h1 className={styles.title}>Research</h1>
         </div>
-      </header>
+      </Styled.Header>
       <article className={styles.article}>
         <section className={styles.section}>
           <span>

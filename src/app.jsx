@@ -7,6 +7,7 @@ import Research from "./components/research/research";
 import People from "./components/people/people";
 import Publications from "./components/publications/publications";
 import Activities from "./components/activities/activities";
+import Information from "./components/information/information";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route exact path="/activities">
             <Activities />
+          </Route>
+          <Route exact path="/information">
+            <Information />
           </Route>
         </Switch>
       </DefaultLayout>

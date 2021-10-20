@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-image: url("img.jpg");
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+.header_innerBox {
+  margin-left: 15em;
+  color: black;
+}
+.title {
+  padding-bottom: 0.15em;
+  border-bottom: 5px solid black;
+  font-size: 4rem;
+}
+.article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.imgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 50%;
+  margin-top: 5em;
+  cursor: pointer;
+}
+.activityImg {
+  width: 30em;
+}
+.imgBox:hover {
+  transform: scale(1.05);
+  transition: 200ms ease-in-out;
+}

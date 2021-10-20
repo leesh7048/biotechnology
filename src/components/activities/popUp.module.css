@@ -1,0 +1,40 @@
+.open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+.close {
+  opacity: 0;
+  background-color: transparent;
+  pointer-events: none;
+}
+.imgBox {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+  height: 80%;
+}
+.btnBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  height: 80%;
+}
+.closeBtn {
+  font-size: 2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
