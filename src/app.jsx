@@ -14,23 +14,23 @@ function App() {
     <BrowserRouter>
       <DefaultLayout>
         <Switch>
-          <Route exact path={["/", "/biotechnology"]}>
-            <Home />
-          </Route>
           <Route path="/research">
             <Research />
           </Route>
           <Route path="/people">
             <People />
           </Route>
-          <Route exact path="/publications">
+          <Route path="/publications">
             <Publications />
           </Route>
-          <Route exact path="/activities">
+          <Route path="/activities">
             <Activities />
           </Route>
-          <Route exact path="/information">
+          <Route path="/information">
             <Information />
+          </Route>
+          <Route exact path={["/", "/biotechnology"]}>
+            <Home />
           </Route>
         </Switch>
       </DefaultLayout>
