@@ -1,28 +1,25 @@
 {
   "files": {
-    "main.css": "/biotechnology/static/css/main.e8d57ad4.chunk.css",
-    "main.js": "/biotechnology/static/js/main.ac2a38ae.chunk.js",
-    "main.js.map": "/biotechnology/static/js/main.ac2a38ae.chunk.js.map",
+    "main.css": "/biotechnology/static/css/main.b3d511c4.chunk.css",
+    "main.js": "/biotechnology/static/js/main.8027c303.chunk.js",
+    "main.js.map": "/biotechnology/static/js/main.8027c303.chunk.js.map",
     "runtime-main.js": "/biotechnology/static/js/runtime-main.90d07029.js",
     "runtime-main.js.map": "/biotechnology/static/js/runtime-main.90d07029.js.map",
-    "static/css/2.2acc3e8f.chunk.css": "/biotechnology/static/css/2.2acc3e8f.chunk.css",
-    "static/js/2.9dd15707.chunk.js": "/biotechnology/static/js/2.9dd15707.chunk.js",
-    "static/js/2.9dd15707.chunk.js.map": "/biotechnology/static/js/2.9dd15707.chunk.js.map",
+    "static/js/2.e5e024ae.chunk.js": "/biotechnology/static/js/2.e5e024ae.chunk.js",
+    "static/js/2.e5e024ae.chunk.js.map": "/biotechnology/static/js/2.e5e024ae.chunk.js.map",
     "index.html": "/biotechnology/index.html",
-    "static/css/2.2acc3e8f.chunk.css.map": "/biotechnology/static/css/2.2acc3e8f.chunk.css.map",
-    "static/css/main.e8d57ad4.chunk.css.map": "/biotechnology/static/css/main.e8d57ad4.chunk.css.map",
-    "static/js/2.9dd15707.chunk.js.LICENSE.txt": "/biotechnology/static/js/2.9dd15707.chunk.js.LICENSE.txt",
+    "static/css/main.b3d511c4.chunk.css.map": "/biotechnology/static/css/main.b3d511c4.chunk.css.map",
+    "static/js/2.e5e024ae.chunk.js.LICENSE.txt": "/biotechnology/static/js/2.e5e024ae.chunk.js.LICENSE.txt",
+    "static/media/information.module.css": "/biotechnology/static/media/header.6c7f2f73.svg",
+    "static/media/activities.module.css": "/biotechnology/static/media/img.01cad61c.jpg",
     "static/media/publications.module.css": "/biotechnology/static/media/img.69b22037.jpg",
-    "static/media/img.99213c97.jpg": "/biotechnology/static/media/img.99213c97.jpg",
-    "static/media/research.module.css": "/biotechnology/static/media/img2.2b139111.jpg",
-    "static/media/people.module.css": "/biotechnology/static/media/img3.06181ed7.jpg",
-    "static/media/slick-theme.css": "/biotechnology/static/media/slick.c94f7671.ttf"
+    "static/media/img.f5e47205.svg": "/biotechnology/static/media/img.f5e47205.svg",
+    "static/media/people.module.css": "/biotechnology/static/media/img3.06181ed7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.90d07029.js",
-    "static/css/2.2acc3e8f.chunk.css",
-    "static/js/2.9dd15707.chunk.js",
-    "static/css/main.e8d57ad4.chunk.css",
-    "static/js/main.ac2a38ae.chunk.js"
+    "static/js/2.e5e024ae.chunk.js",
+    "static/css/main.b3d511c4.chunk.css",
+    "static/js/main.8027c303.chunk.js"
   ]
 }
