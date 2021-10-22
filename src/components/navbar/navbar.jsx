@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./navbar.module.css";
 import { GiDrippingTube } from "react-icons/gi";
+import { FiMenu } from "react-icons/fi";
 
 const Navbar = (props) => {
   return (
@@ -38,6 +39,9 @@ const Navbar = (props) => {
           <Link to="/information">INFORMATION </Link>
         </li>
       </ul>
+      <button className={styles.toggleBtn}>
+        <FiMenu />
+      </button>
     </nav>
   );
 };

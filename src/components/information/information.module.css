@@ -8,7 +8,7 @@
   align-items: center;
   background-image: url("./img/header.svg");
   background-size: cover;
-
+  margin-top: 80px;
   height: calc(100vh - 80px);
 }
 .header_innerBox {

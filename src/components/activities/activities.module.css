@@ -9,6 +9,7 @@
   background-image: url("img.jpg");
   background-size: cover;
   height: calc(100vh - 80px);
+  margin-top: 80px;
 }
 .header_innerBox {
   margin-left: 15em;

@@ -3,19 +3,23 @@
   justify-content: center;
   gap: 40px;
   height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
   /* border: 1px solid red; */
 }
 
 .list {
   display: flex;
-  gap: 50px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   list-style: none;
+  gap: 50px;
   padding: 0;
 }
-.item:hover {
+.item a:hover {
   color: tomato;
 }
 
@@ -28,4 +32,25 @@
 }
 .logoImg {
   transform: rotate(-30deg);
+}
+.toggleBtn {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .list {
+    display: none;
+  }
+  .toggleBtn {
+    display: block;
+  }
 }
