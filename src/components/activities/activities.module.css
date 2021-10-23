@@ -8,8 +8,8 @@
   align-items: center;
   background-image: url("img.jpg");
   background-size: cover;
-  height: calc(100vh - 80px);
-  margin-top: 80px;
+  height: calc(100vh - 56px);
+  margin-top: 56px;
 }
 .header_innerBox {
   margin-left: 15em;
@@ -39,4 +39,17 @@
 .imgBox:hover {
   transform: scale(1.05);
   transition: 200ms ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: center;
+    height: 50vh;
+  }
+  .header_innerBox {
+    margin: 0;
+  }
+  .title {
+    font-size: 2rem;
+  }
 }

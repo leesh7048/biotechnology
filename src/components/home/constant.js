@@ -1,7 +1,9 @@
+import image1 from "./img/homeImg.jpg";
+
 export const IMAGES = [
   {
     name: "1",
-    url: "https://healthcare-in-europe.com/media/story_section_image/3258/image-01-university-of-texas-m-d-anderson-cancer-center-liquid-biopsy.jpg",
+    url: image1,
     title: "Embrace Life",
     description:
       "글로벌 헬스케어 리딩기업 셀트리온 인류의 더 건강하고 행복한 삶을 위한 우리의 도전은 계속됩니다",

@@ -5,11 +5,12 @@
 }
 .header {
   display: flex;
-  margin-top: 80px;
+  margin-top: 56px;
+  width: 100%;
   align-items: center;
   background-image: url("./img/img3.jpg");
   background-size: cover;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 56px);
 }
 .header_innerBox {
   margin-left: 15em;
@@ -25,6 +26,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .professor {
   display: flex;
@@ -41,7 +43,6 @@
 }
 .profile {
   display: flex;
-
   margin-right: 3em;
 }
 .people1 {
@@ -81,4 +82,24 @@
 .graduationProfile {
   display: flex;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: center;
+    height: 50vh;
+  }
+  .header_innerBox {
+    margin: 0;
+  }
+  .title {
+    font-size: 2rem;
+  }
+
+  .professor {
+    align-items: center;
+  }
+  .professorProfile {
+    width: 100%;
+  }
 }

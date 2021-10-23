@@ -65,8 +65,6 @@ const Information = (props) => {
           </div>
         </div>
       </section>
-
-      <section className={styles.information}></section>
     </main>
   );
 };

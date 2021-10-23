@@ -3,14 +3,13 @@ import styles from "./research.module.css";
 import * as Styled from "./research.styled";
 
 const Research = (props) => {
-  console.log(process.env.PUBLIC_URL.public);
   return (
     <main className={styles.container}>
-      <Styled.Header className={styles.header}>
+      <header className={styles.header}>
         <div className={styles.header_innerBox}>
           <h1 className={styles.title}>Research</h1>
         </div>
-      </Styled.Header>
+      </header>
       <article className={styles.article}>
         <section className={styles.section}>
           <span>

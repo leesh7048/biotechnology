@@ -24,11 +24,12 @@
   flex: 3;
   height: 80%;
 }
-.btnBox {
+.contentBox {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
   align-items: flex-start;
-  flex: 1;
+  flex: 2;
   height: 80%;
 }
 .closeBtn {
@@ -37,4 +38,21 @@
   outline: none;
   border: none;
   cursor: pointer;
+  position: relative;
+  left: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .imgBox {
+    flex: 1;
+    height: 50%;
+  }
+  .contentBox {
+    flex: 1;
+    height: 50%;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+  }
 }

@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import styles from "./navbar.module.css";
 import { GiDrippingTube } from "react-icons/gi";
 import { FiMenu } from "react-icons/fi";
 
 const Navbar = (props) => {
+  const [clickBtn, setClickBtn] = useState(false);
+  const handleToggleBtn = () => {
+    // !clickBtn ? setClickBtn(true) : setClickBtn(false);
+    setClickBtn((prevClickBtn) => !prevClickBtn);
+  };
+  const display = clickBtn && styles.open;
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
@@ -16,7 +23,7 @@ const Navbar = (props) => {
         <GiDrippingTube fontSize="2rem" />
       </div>
 
-      <ul className={styles.list}>
+      <ul className={`${styles.list} ${display}`}>
         <li className={styles.item}>
           <Link to="/">HOME</Link>
         </li>
@@ -39,7 +46,7 @@ const Navbar = (props) => {
           <Link to="/information">INFORMATION </Link>
         </li>
       </ul>
-      <button className={styles.toggleBtn}>
+      <button className={styles.toggleBtn} onClick={handleToggleBtn}>
         <FiMenu />
       </button>
     </nav>

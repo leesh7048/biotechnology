@@ -1,8 +1,8 @@
 import React from "react";
 
 import styles from "./home.module.css";
-import { IMAGES } from "../../constant";
-import Swiper from "../Swiper";
+import { IMAGES } from "./constant";
+import Swiper from "./Swiper";
 
 const Home = (props) => {
   return (

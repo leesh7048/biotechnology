@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 const Wrapper = styled.div`
   width: 100vw;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 56px);
   overflow-x: hidden;
 `;
 
