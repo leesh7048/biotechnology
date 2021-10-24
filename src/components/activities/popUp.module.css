@@ -1,5 +1,6 @@
 .open {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -9,7 +10,7 @@
   right: 0;
   background: white;
   opacity: 1;
-  padding: 0 10em;
+
   z-index: 1;
   transition: opacity 500ms ease-in-out;
 }
@@ -23,8 +24,10 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  width: 100em;
-  height: 60%;
+  width: 30em;
+}
+.section {
+  display: flex;
 }
 .img {
   width: 100%;
@@ -35,7 +38,6 @@
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
-
   height: 80%;
   padding: 30px;
 }
@@ -57,12 +59,17 @@
   .open {
     padding: 0;
   }
+  .section {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .imgBox {
-    width: 120em;
-    height: 40%;
+    width: 60%;
+    height: 60%;
   }
   .contentBox {
-    flex-direction: column;
     height: 50%;
   }
   .img {

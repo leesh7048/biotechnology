@@ -53,4 +53,11 @@
   .title {
     font-size: 2rem;
   }
+  .activityImg {
+    width: 60%;
+  }
+  .imgBox {
+    flex: none;
+    width: 100%;
+  }
 }

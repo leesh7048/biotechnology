@@ -11,19 +11,21 @@ const PopUp = ({ closeClick, data }) => {
 
   return (
     <div className={display}>
-      <div className={styles.imgBox}>
-        <img className={styles.img} src={imgUrl} alt="img" />
+      <div className={styles.btnBox}>
+        <button className={styles.closeBtn} onClick={closeClick}>
+          <GrClose />
+        </button>
       </div>
-      <div className={styles.contentBox}>
-        <div className={styles.btnBox}>
-          <button className={styles.closeBtn} onClick={closeClick}>
-            <GrClose />
-          </button>
+      <section className={styles.section}>
+        <div className={styles.imgBox}>
+          <img className={styles.img} src={imgUrl} alt="img" />
         </div>
-        <h1>{data && data.title}</h1>
-        <span>{data && data.date}</span>
-        <span>{data && data.content}</span>
-      </div>
+        <div className={styles.contentBox}>
+          <h1>{data && data.title}</h1>
+          <span>{data && data.date}</span>
+          <span>{data && data.content}</span>
+        </div>
+      </section>
     </div>
   );
 };
