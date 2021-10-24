@@ -1,9 +1,9 @@
 import React from "react";
 
-import styles from "./profile.module.css";
+import styles from "./studentProfile.module.css";
 
-const Profile = ({ data }) => {
-  const { imgURL, name, position, email } = data;
+const StudentProfile = ({ data }) => {
+  const { imgURL, name, position, email, career, mbti } = data;
 
   return (
     <div className={styles.container}>
@@ -19,14 +19,10 @@ const Profile = ({ data }) => {
             <span className={styles.underscore}></span>
             <span>{position}</span>
             <span>{email}</span>
+            <span>{mbti}</span>
           </div>
           <div className={styles.career}>
-            <span>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
-              temporibus illo architecto quos perspiciatis veniam consequatur
-              optio voluptatem labore, accusantium corrupti incidunt quidem
-              reprehenderit, molestiae adipisci itaque est obcaecati ut!
-            </span>
+            <span>{career}</span>
           </div>
         </>
       )}
@@ -34,4 +30,4 @@ const Profile = ({ data }) => {
   );
 };
 
-export default Profile;
+export default StudentProfile;

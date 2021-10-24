@@ -34,7 +34,7 @@
   cursor: pointer;
 }
 .activityImg {
-  width: 30em;
+  width: 60%;
 }
 .imgBox:hover {
   transform: scale(1.05);
@@ -45,11 +45,19 @@
   .header {
     justify-content: center;
     height: 50vh;
+    width: 100%;
   }
   .header_innerBox {
     margin: 0;
   }
   .title {
     font-size: 2rem;
+  }
+  .activityImg {
+    width: 60%;
+  }
+  .imgBox {
+    flex: none;
+    width: 100%;
   }
 }

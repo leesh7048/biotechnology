@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import styles from "./people.module.css";
 
-import Profile from "./profile";
+import StudentProfile from "./studentProfile";
+import ProfessorProfile from "./professorProfile";
+
 import { PROFILES } from "./contant";
 
 const People = (props) => {
   const [profiles, setProfiles] = useState(PROFILES);
-  console.log(profiles.filter((a) => a.position === "Professor").map((b) => b));
 
   return (
     <main className={styles.container}>
@@ -19,33 +20,45 @@ const People = (props) => {
         <section className={styles.professor}>
           <h1>Professors</h1>
           <div className={styles.professorProfile}>
-            {profiles
-              .filter((profile) => profile.position === "Professor")
-              .map((data) => (
-                <Profile data={data} key={data.id} />
-              ))}
+            {profiles.professor.map((data) => (
+              <ProfessorProfile data={data} key={data.id} />
+            ))}
+          </div>
+        </section>
+        <span className={styles.underline}></span>
+        <section className={styles.professor}>
+          <h1>Research Professor</h1>
+          <div className={styles.professorProfile}>
+            {profiles.researchProfessor.map((data) => (
+              <ProfessorProfile data={data} key={data.id} />
+            ))}
           </div>
         </section>
         <span className={styles.underline}></span>
         <section className={styles.students}>
-          <h1>Postdoc & Students</h1>
+          <h1>PostDoc</h1>
           <div className={styles.studentProfile}>
-            {profiles
-              .filter((profile) => profile.position === "Student")
-              .map((data) => (
-                <Profile data={data} key={data.id} />
-              ))}
+            {profiles.postDoc.map((data) => (
+              <StudentProfile data={data} key={data.id} />
+            ))}
+          </div>
+        </section>
+        <span className={styles.underline}></span>
+        <section className={styles.students}>
+          <h1>Students</h1>
+          <div className={styles.studentProfile}>
+            {profiles.student.map((data) => (
+              <StudentProfile data={data} key={data.id} />
+            ))}
           </div>
         </section>
         <span className={styles.underline}></span>
         <section className={styles.graduates}>
           <h1>Alumni</h1>
           <div className={styles.graduationProfile}>
-            {profiles
-              .filter((profile) => profile.position === "Graduate")
-              .map((data) => (
-                <Profile data={data} key={data.id} />
-              ))}
+            {profiles.alumnie.map((data) => (
+              <StudentProfile data={data} key={data.id} />
+            ))}
           </div>
         </section>
       </article>

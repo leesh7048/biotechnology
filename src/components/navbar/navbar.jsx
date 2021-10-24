@@ -11,6 +11,9 @@ const Navbar = (props) => {
     setClickBtn((prevClickBtn) => !prevClickBtn);
   };
   const display = clickBtn && styles.open;
+  const liClick = () => {
+    setClickBtn(false);
+  };
 
   return (
     <nav className={styles.navbar}>
@@ -23,7 +26,7 @@ const Navbar = (props) => {
         <GiDrippingTube fontSize="2rem" />
       </div>
 
-      <ul className={`${styles.list} ${display}`}>
+      <ul className={`${styles.list} ${display}`} onClick={liClick}>
         <li className={styles.item}>
           <Link to="/">HOME</Link>
         </li>

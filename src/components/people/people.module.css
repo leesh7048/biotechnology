@@ -20,6 +20,7 @@
   padding-bottom: 0.15em;
   border-bottom: 5px solid black;
   font-size: 4rem;
+  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
 }
 .article {
   display: flex;

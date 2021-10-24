@@ -15,9 +15,11 @@ const PopUp = ({ closeClick, data }) => {
         <img className={styles.img} src={imgUrl} alt="img" />
       </div>
       <div className={styles.contentBox}>
-        <button className={styles.closeBtn} onClick={closeClick}>
-          <GrClose />
-        </button>
+        <div className={styles.btnBox}>
+          <button className={styles.closeBtn} onClick={closeClick}>
+            <GrClose />
+          </button>
+        </div>
         <h1>{data && data.title}</h1>
         <span>{data && data.date}</span>
         <span>{data && data.content}</span>

@@ -2,9 +2,10 @@ export const IMGURL = [
   {
     id: "0",
     imgUrl: "/images/activityImg.jpg",
-    date: "210901",
-    title: "title",
-    content: "content1",
+    date: "21.09.01",
+    title: "hello",
+    content:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aspernatur nobis modi. Nobis voluptas molestias, accusantium praesentium quibusdam veniam, aut culpa pariatur, esse debitis eligendi. Earum inventore quam mollitia distinctio.",
   },
   {
     id: "1",

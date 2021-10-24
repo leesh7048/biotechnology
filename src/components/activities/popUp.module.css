@@ -9,6 +9,8 @@
   right: 0;
   background: white;
   opacity: 1;
+  padding: 0 10em;
+  z-index: 1;
   transition: opacity 500ms ease-in-out;
 }
 .close {
@@ -21,16 +23,21 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  flex: 3;
-  height: 80%;
+  width: 100em;
+  height: 60%;
+}
+.img {
+  width: 100%;
+  height: 100%;
 }
 .contentBox {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
-  flex: 2;
+
   height: 80%;
+  padding: 30px;
 }
 .closeBtn {
   font-size: 2rem;
@@ -39,20 +46,30 @@
   border: none;
   cursor: pointer;
   position: relative;
-  left: 300px;
+  right: 0;
+}
+.btnBox {
+  width: 100%;
+  text-align: right;
 }
 
 @media screen and (max-width: 768px) {
+  .open {
+    padding: 0;
+  }
   .imgBox {
-    flex: 1;
-    height: 50%;
+    width: 120em;
+    height: 40%;
   }
   .contentBox {
-    flex: 1;
+    flex-direction: column;
     height: 50%;
   }
   .img {
     width: 100%;
     height: 100%;
+  }
+  .close {
+    display: none;
   }
 }
