@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/biotechnology/static/css/main.17182dba.chunk.css",
-    "main.js": "/biotechnology/static/js/main.7c991643.chunk.js",
-    "main.js.map": "/biotechnology/static/js/main.7c991643.chunk.js.map",
+    "main.css": "/biotechnology/static/css/main.491d974a.chunk.css",
+    "main.js": "/biotechnology/static/js/main.7dc81efe.chunk.js",
+    "main.js.map": "/biotechnology/static/js/main.7dc81efe.chunk.js.map",
     "runtime-main.js": "/biotechnology/static/js/runtime-main.90d07029.js",
     "runtime-main.js.map": "/biotechnology/static/js/runtime-main.90d07029.js.map",
     "static/js/2.d8665fa2.chunk.js": "/biotechnology/static/js/2.d8665fa2.chunk.js",
     "static/js/2.d8665fa2.chunk.js.map": "/biotechnology/static/js/2.d8665fa2.chunk.js.map",
     "index.html": "/biotechnology/index.html",
-    "static/css/main.17182dba.chunk.css.map": "/biotechnology/static/css/main.17182dba.chunk.css.map",
+    "static/css/main.491d974a.chunk.css.map": "/biotechnology/static/css/main.491d974a.chunk.css.map",
     "static/js/2.d8665fa2.chunk.js.LICENSE.txt": "/biotechnology/static/js/2.d8665fa2.chunk.js.LICENSE.txt",
     "static/media/information.module.css": "/biotechnology/static/media/header.88739376.jpg",
     "static/media/homeImg.f90ee81e.jpg": "/biotechnology/static/media/homeImg.f90ee81e.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.90d07029.js",
     "static/js/2.d8665fa2.chunk.js",
-    "static/css/main.17182dba.chunk.css",
-    "static/js/main.7c991643.chunk.js"
+    "static/css/main.491d974a.chunk.css",
+    "static/js/main.7dc81efe.chunk.js"
   ]
 }
